@@ -2,6 +2,7 @@
 
 test_list = [-1]
 print(test_list)
+print(test_list[-1])  # вывод последнего элемента списка
 test_list.insert(-1, 2)  # для добавления перед последним в списке используется индекс -1
 print(test_list)
 test_list.insert(-1, 3)
